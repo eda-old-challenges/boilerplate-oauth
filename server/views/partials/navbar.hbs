@@ -1,0 +1,11 @@
+<div class="navbar">
+{{#if user.isLoggedIn}}
+  <div class="signed-in link">
+    <a href="/profile">Profile</a> | <a href="/logout">Logout</a>
+  </div>
+{{else}}
+  <div class="signed-out link">
+    <a href="/auth">Sign in</a>
+  </div>
+{{/if}}
+</div>

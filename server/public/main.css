@@ -1,0 +1,11 @@
+.flash {
+  color: blue;
+}
+
+.auth-services {
+  display: flex;
+}
+
+.auth-services .logo {
+  width: 200px;
+}

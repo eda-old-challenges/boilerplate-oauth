@@ -1,0 +1,36 @@
+{
+  "name": "boilerplate-oauth",
+  "version": "0.1.0",
+  "description": "Express/Passport boilerplate using Twitter OAuth.",
+  "main": "server/index.js",
+  "scripts": {
+    "knex": "knex",
+    "dev": "nodemon server",
+    "debug": "node --inspect --debug-brk server",
+    "start": "node server",
+    "postinstall": "knex migrate:latest"
+  },
+  "author": "EDA",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-ensure-login": "^0.1.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.1",
+    "knex": "^0.11.10",
+    "passport": "^0.3.2",
+    "passport-twitter": "^1.0.4",
+    "sqlite3": "^3.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0",
+    "nodemon": "^1.10.2"
+  }
+}
